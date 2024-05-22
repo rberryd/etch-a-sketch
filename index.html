@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Etch-A-Sketch</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="index.js" defer></script>
+    </head>
+    <body>
+        <div class="game-container">
+            <div class="range-container">
+                <h1>Size</h1>
+                <h3 id="rangeOutput">16</h3>
+                <input type="range" min="1" max="100" value="16" id="rangeInput">
+            </div>
+            <div class="cube-container"></div>
+            <div class="btn-container">
+                <button class="colors">Black</button>
+                <button class="colors">Red</button>
+                <button class="colors">Green</button>
+                <button class="colors">Blue</button>
+                <button class="colors">Yellow</button>
+                <button class="grid">No Grid</button>
+                <button class="reset">Reset</button>
+            </div>
+        </div>
+    </body>
+</html>
